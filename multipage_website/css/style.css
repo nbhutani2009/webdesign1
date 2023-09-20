@@ -14,3 +14,29 @@
     text-align: center;
     font-size: 40px;
 }
+
+.container {
+    width: 1080px;
+    border: 4px solid purple;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 25px
+}
+
+.wrap {
+    float: right;  
+}
+
+.title-container {
+    width: 200px;
+    border: 4px solid black;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: rgb(220, 187, 220);
+    border-radius: 15px;
+}
+
+.links {
+    text-align: center;
+}
