@@ -40,3 +40,12 @@
 .links {
     text-align: center;
 }
+
+.anti-wrap {
+    float: left;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
