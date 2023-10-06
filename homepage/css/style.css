@@ -20,9 +20,13 @@ ul {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #111;
+    background-color: #8674aa;
   }
 
 .center {
     text-align: center;
+}
+
+body {
+    background-color: #cda5f3
 }
