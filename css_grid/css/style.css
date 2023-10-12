@@ -74,3 +74,56 @@ ul.nav li a {
     width: 100%;
     background-color: white;
 }
+
+.firstthing {
+    grid-column: 1 / span 5;
+    grid-row: 2;
+    text-align: center;
+}
+
+.grid-thing {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.menubar {
+    grid-row:1;
+    grid-column: 1 / span 5;
+}
+
+.firstmovie {
+    grid-column: 1 / span 1;
+    grid-row: 3;
+    width: 210px;
+}
+
+.p-font {
+    font-size: smaller;
+}
+
+.secondmovie {
+    grid-column: 2 / span 1;
+    grid-row: 3;
+    width: 210px;
+}
+
+.thirdmovie {
+    grid-column: 3 / span 1;
+    grid-row: 3;
+    width: 210px;
+}
+
+.fourthmovie {
+    grid-column: 4 / span 1;
+    grid-row: 3;
+    width: 210px;
+}
+
+.fifthmovie {
+    grid-column: 5 / span 1;
+    grid-row: 3;
+    width: 210px;
+}
+
+
