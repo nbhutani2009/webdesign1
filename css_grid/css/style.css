@@ -95,7 +95,7 @@ ul.nav li a {
 .firstmovie {
     grid-column: 1 / span 1;
     grid-row: 3;
-    width: 210px;
+    width: 200px;
 }
 
 .p-font {
@@ -105,25 +105,25 @@ ul.nav li a {
 .secondmovie {
     grid-column: 2 / span 1;
     grid-row: 3;
-    width: 210px;
+    width: 200px;
 }
 
 .thirdmovie {
     grid-column: 3 / span 1;
     grid-row: 3;
-    width: 210px;
+    width: 200px;
 }
 
 .fourthmovie {
     grid-column: 4 / span 1;
     grid-row: 3;
-    width: 210px;
+    width: 200px;
 }
 
 .fifthmovie {
     grid-column: 5 / span 1;
     grid-row: 3;
-    width: 210px;
+    width: 200px;
 }
 
 
