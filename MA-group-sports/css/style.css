@@ -20,11 +20,7 @@ ul {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-<<<<<<< HEAD
-    background-color: rgb(158, 179, 239);
-  }
-=======
-    background-color: #04114b;
+    background-color: #8a95c6;
   }
 
   body {
@@ -78,4 +74,3 @@ ul {
         width: 100%;
         background-color: rgb(118, 174, 223);
     }
->>>>>>> e407d74b641e83fbf072024822e60e63429101d4
