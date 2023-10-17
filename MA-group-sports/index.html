@@ -5,17 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MA Sports Project | Sabina, Zara, Nehmat</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+
+        .welcome-paragraph {
+            grid-row: 1;
+            grid-column: 1 / span 3;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: auto auto 25%;
+        }
+
+        .grid-item {
+        background-color: rgb(141, 182, 219);
+        text-align: center;
+        font-size: 30px;
+        padding: 20px;
+        }
+
+        .nav-menu {
+            grid-row: 1;
+            grid-column: 1 / span 3;
+        }
+    </style>
 </head>
 <body>
 
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="basketball.html">Basketball</a></li>
-            <li><a href="soccer.html">Soccer</a></li>
-            <li><a href="ult.html">Ultimate</a></li>
-            <li><a href="volleyball.html">Volleyball</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <div class="grid-container">
+        <div class="grid-item">
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="basketball.html">Basketball</a></li>
+                <li><a href="soccer.html">Soccer</a></li>
+                <li><a href="ult.html">Ultimate</a></li>
+                <li><a href="volleyball.html">Volleyball</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+            <div class=" grid-item welcome-paragraph">
+                <h1>Welcome!</h1>
+                <p>Hello there everyone! Welcome to our website! On this website, our goal is to give information to our fellow EPS athletes about sports outside of school and places where they can further the talents that they nourish here! We have information about club tryouts, logistics and other opporunities!</p>
+            </div>
+        </div>
+
 
     
 </body>
