@@ -5,17 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MA Sports Project | Sabina, Zara, Nehmat</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+
+        body {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+
+        .welcome-paragraph {
+            grid-row: 2;
+            grid-column: 1 / span 3;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: auto auto 25%;
+        }
+
+        .grid-item {
+        background-color: rgb(141, 182, 219);
+        text-align: center;
+        font-size: 20px;
+        padding: 20px;
+        }
+
+        .nav-menu {
+            grid-row: 1;
+            grid-column: 1 / span 3;
+        }
+
+        .main-image {
+            grid-row: 3;
+            grid-column: 1 / span 2;
+        }
+
+        .announcements {
+            grid-row: 3;
+            grid-column: 3 / span 1;
+        }
+
+        .purpose {
+            grid-row: 4;
+            grid-column: 1 / span 1;
+        }
+
+        .important {
+            grid-row: 4;
+            grid-column: 2 / span 2;
+        }
+    </style>
+
 </head>
 <body>
 
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="basketball.html">Basketball</a></li>
-            <li><a href="soccer.html">Soccer</a></li>
-            <li><a href="ult.html">Ultimate</a></li>
-            <li><a href="volleyball.html">Volleyball</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <div class="grid-container">
+        <div class="grid-item">
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="basketball.html">Basketball</a></li>
+                <li><a href="soccer.html">Soccer</a></li>
+                <li><a href="ult.html">Ultimate</a></li>
+                <li><a href="volleyball.html">Volleyball</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+            <div class="grid-item welcome-paragraph">
+                <h1>Welcome!</h1>
+                <p>Hello there everyone! Welcome to our website! On this website, our goal is to give information to our fellow EPS athletes about sports outside of school and places where they can further the talents that they nourish here! We have information about club tryouts, logistics and other opportunities!</p>
+            </div>
+
+            <div class="grid-item main-image">
+                <iframe width="516" height="315" src="https://www.youtube.com/embed/MlyZbsmVnj4?si=aEXDgWRHMfab8VOx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <div class="grid-item announcements">
+                <h2>Announcements!</h2>
+                <ul style="font-size: 20px">
+                    <li>Basketball Signups Open Now!</li>
+                    <li>Senior Night for Volleyball: 10/18!</li>
+                    <li>Boys Golf Season Record - 7-1!</li>
+                    <li>Yearbook Cover Contest: Open!</li>
+                    <li>Friendly Boys Ultimate Game vs. Mercer: 10/19</li>
+                    <li>Jacob and Rishay (Rowing) Headed to Nattys!</li>
+                </ul>
+            </div>
+
+            <div class="grid-item purpose">
+                <h2>Purpose</h2>
+                <p>The purpose of this website is to give our EPS athletes a way to take the sports that they play on campus and take them to places outside of campus. It's a way for our athletes to grow their skills by participating in club sports or learning about others. We wanted to create this site as an accessible place where our EPS athletes can get all the information they need in one spot.</p>
+            </div>
+
+            <div class="grid-item important">
+                <h2>Off-Campus: Important Details</h2>
+                <p>Check the individual pages for more information!</p>
+                <ol>
+                    <li>Club Basketball Season is Starting!</li>
+                    <li>Ultimate Tryouts (Washington) Happening Soon!</li>
+                    <li>Volleyball 14U and Under Tryouts Late October!</li>
+                </ol>
+            </div>
+    </div>
+
+    <div class="footer">
+        Created by &copy; Nehmat, Sabina,Zara Web Design SportsPage
+    </div>
+
 
     
 </body>
