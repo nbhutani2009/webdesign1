@@ -39,7 +39,7 @@ ul {
     
     .navmenu {
     grid-row: 1;
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 10;
     }
     
     .main-image {
