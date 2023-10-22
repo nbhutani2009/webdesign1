@@ -6,6 +6,19 @@
     <title>CSS Grid</title>
    <link rel="stylesheet" href="css/style.css">
    <div class="grid-container">
+    <style>
+        .welcome-paragraph {
+            grid-row: 2;
+            grid-column: 1 / span 3;
+        }
+        .grid-item {
+        background-color: rgb(141, 182, 219);
+        text-align: center;
+        font-size: 20px;
+        padding: 20px;
+        }
+        .
+    </style>
 </head>
 <body>
     <ul>
@@ -16,11 +29,18 @@
         <li><a href="volleyball.html">Volleyball</a></li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
-       <div class="grid-item main-image">
-        <img src="" alt="super awesome main image">
-       </div>
-<div class="grid-item main1">Main1 content</div>        
-<div class="grid-item main2">Main2 content</div>    
+        
+<div class="grid-item welcome-paragraph">
+    <h1>Volleyball Information!</h1>
+</div>
+    <div class="grid-item main1">
+    <img src="images/epsvolley.png" alt="super awesome main image" width="700"height="600">
+    <h3>Interested in volleyball? Heres all the information you need!</h3>
+    <p>Here is what you need to know:</p>
+    
+
+</div>        
+<div class="grid-item main2">Interview</div>    
 <div class="grid-item sidenav">Side Nav</div>    
          </div>
          <div class="footer">
