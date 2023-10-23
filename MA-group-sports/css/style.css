@@ -1,6 +1,9 @@
 body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+background-image: linear-gradient(rgb(29, 40, 113),rgb(119, 148, 244));
+border-color: #869cff;
+border-style: solid;
   background-image: linear-gradient(rgb(91, 166, 235), rgb(34, 39, 128)); /* I learned how to create a gradient backround - Sabina*/
   border-color: #869cff;
   border-style: solid; /* I learned how to create a border and find a border style - Sabina */
@@ -29,7 +32,7 @@ ul {
     text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
+  
   li a:hover {
     background-color: #8a95c6;
   }
