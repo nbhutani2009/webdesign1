@@ -4,9 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MA Sports Project | Sabina, Zara, Nehmat</title>
-    <link
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .grid-container {
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: auto auto 25%;
+        }
+
+        .grid-item {
+        background-color: rgb(141, 182, 219);
+        text-align: center;
+        font-size: 20px;
+        padding: 20px;
+        }
+
+        .nav-menu {
+            grid-row: 1;
+            grid-column: 1 / span 3;
+        }
+
+        .contact-title {
+            grid-row: 2;
+            grid-column: 1 / span 3;
+        }
+
+        .table-fun {
+            grid-row: 3;
+            grid-column: 1 / span 2;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="grid-container">
+        <div class="grid-item">
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="basketball.html">Basketball</a></li>
+                <li><a href="soccer.html">Soccer</a></li>
+                <li><a href="ult.html">Ultimate</a></li>
+                <li><a href="volleyball.html">Volleyball</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="grid-item contact-title">
+            <h1>Contact Page!</h1>
+            <p>Learn a little about us and how to contact us!</p>
+        </div>
+
+        <div class="grid-item table-fun">
+            <table class="table">
+                <tr>
+                    <th>Category</th>
+                  <th>Zara</th>
+                  <th>Sabina</th>
+                  <th>Nehmat</th>
+                </tr>
+                <tr>
+                  <td>Favorite Food</td>
+                  <td>Thai Food</td>
+                  <td>Biriyani</td>
+                  <td>Korean Food</td>
+                </tr>
+                <tr>
+                  <td>Favorite Movie</td>
+                  <td>Tangled</td>
+                  <td>Kill Bill</td>
+                  <td>Avengers</td>
+                </tr>
+                <tr>
+                    <td>Favorite Color</td>
+                    <td>Pink</td>
+                    <td>Green</td>
+                    <td>Lavender</td>
+                </tr>
+                <tr>
+                    <td>Favorite Sport to Watch</td>
+                    <td>Soccer</td>
+                    <td>Hockey</td>
+                    <td>Volleyball</td>
+                </tr>
+              </table>
+        </div>
+    </div>
 </body>
 </html>
