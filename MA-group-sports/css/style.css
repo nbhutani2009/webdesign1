@@ -1,9 +1,9 @@
 body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
-background-image: linear-gradient(rgb(91, 166, 235), rgb(34, 39, 128)); /* I learned how to create a gradient backround - Sabina*/
+background-color: #3a368d;
 border-color: #869cff;
-border-style: solid; /* I learned how to create a border and find a border style - Sabina */
+border-style: solid;
 
 }
 
@@ -78,27 +78,15 @@ ul {
         width: 100%;
         background-color: rgb(118, 174, 223);
     }
-
-    .table {
-      font-family: Arial, Helvetica, sans-serif;
-      border-collapse: collapse;
-      width: 100%;
+    .maina {
+      grid-row:3;
+      grid-column:1;
   }
-
-.table td, .table th {
-border: 1px solid rgb(33, 33, 83);
-padding: 8px;
-}
-
-.table tr:nth-child(even){background-color: lightblue;}
-.table tr:nth-child(odd){background-color:lightskyblue;}
-
-.table tr:hover {background-color: #ddd;}
-
-.table th {
-padding-top: 12px;
-padding-bottom: 12px;
-text-align: left;
-background-color: rgb(33, 33, 83);
-color: white;
-}
+  .mainb {
+      grid-row:3;
+      grid-column:2;
+  }
+  .mainc {
+      grid-row:4;
+      grid-column:1 / span 2;
+  }
