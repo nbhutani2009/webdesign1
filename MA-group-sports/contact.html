@@ -33,6 +33,16 @@
             grid-row: 3;
             grid-column: 1 / span 2;
         }
+
+        .side-resources {
+            grid-row: 3;
+            grid-column: 3;
+        }
+
+        .row-of-pics {
+            grid-row: 4;
+            grid-column: 1 / span 3;
+        }
     </style>
 </head>
 <body>
@@ -53,8 +63,10 @@
             <p>Learn a little about us and how to contact us!</p>
         </div>
 
+        <!--I learned how to make the color of the row change on hover--> 
+        
         <div class="grid-item table-fun">
-            <table class="table">
+            <table class="table">  
                 <tr>
                     <th>Category</th>
                   <th>Zara</th>
@@ -85,8 +97,34 @@
                     <td>Hockey</td>
                     <td>Volleyball</td>
                 </tr>
+                <tr>
+                    <td>Favorite Animal</td>
+                    <td>Humpback Whale</td>
+                    <td>Ducks</td>
+                    <td>Lions</td>
+                </tr>
               </table>
         </div>
+
+        <div class="grid-item side-resources">
+            <h2>School Emails</h2>
+            <p>Sabina Ahmed: sahmed@eastsideprep.org</p>
+            <p>Zara Tareen: zatareen@eastsideprep.org</p>
+            <p>Nehmat Bhutani: nbhutani@eastsideprep.org</p>
+        </div>
+
+        <div class="grid-item row-of-pics">
+            <h2>Us!</h2>
+            <img src="images/nehma-pic.png" float="left" width="200px" height="300px" style="margin-left: 70px; margin-right: 70px;">
+            <img src="images/bina-pic.png" float="none" width="200px" height="300px" style="margin-right: 70px">
+            <img src="images/zara-pic.png" float="right" width="200px" height="300px" style="margin-right: 70px">
+
+        </div>
     </div>
+
+    <div class="footer">
+        Created by &copy; Nehmat's Contact Page
+    </div>
+
 </body>
 </html>
