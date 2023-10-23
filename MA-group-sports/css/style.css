@@ -74,7 +74,7 @@ ul {
         width: 100%;
         background-color: rgb(118, 174, 223);
     }
-<<<<<<< HEAD
+  
   .maina {
       grid-row:3;
       grid-column:1;
@@ -87,9 +87,3 @@ ul {
       grid-row:4;
       grid-column:1 / span 2;
   }
-=======
-
-    .img{
-      text-align: center;
-    }
->>>>>>> 44163c8521ba54aa426afbf20bae795084521740
