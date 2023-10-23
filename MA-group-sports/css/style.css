@@ -90,3 +90,28 @@ ul {
       grid-row:4;
       grid-column:1 / span 2;
   }
+
+  .table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table td, .customers th {
+    border: 1px solid #0c0a4c;
+    padding: 8px;
+  }
+  
+  .table tr:nth-child(even){background-color: lightblue;}
+  .table tr:nth-child(odd){background-color:lightskyblue}
+
+  
+  .table tr:hover {background-color: #ddd;}
+  
+  .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0c0a4c;
+    color: white;
+  }
