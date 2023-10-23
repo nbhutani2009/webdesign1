@@ -74,7 +74,16 @@ ul {
         width: 100%;
         background-color: rgb(118, 174, 223);
     }
-
-    .img{
-      text-align: center;
-    }
+  
+  .maina {
+      grid-row:3;
+      grid-column:1;
+  }
+  .mainb {
+      grid-row:3;
+      grid-column:2;
+  }
+  .mainc {
+      grid-row:4;
+      grid-column:1 / span 2;
+  }
