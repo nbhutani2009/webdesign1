@@ -78,3 +78,27 @@ ul {
         width: 100%;
         background-color: rgb(118, 174, 223);
     }
+
+    .table {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+  }
+
+.table td, .table th {
+border: 1px solid rgb(33, 33, 83);
+padding: 8px;
+}
+
+.table tr:nth-child(even){background-color: lightblue;}
+.table tr:nth-child(odd){background-color:lightskyblue;}
+
+.table tr:hover {background-color: #ddd;}
+
+.table th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: rgb(33, 33, 83);
+color: white;
+}
