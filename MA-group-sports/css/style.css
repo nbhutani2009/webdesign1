@@ -1,11 +1,13 @@
 body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
-background-color: #3a368d;
-border-color: #869cff;
-border-style: solid;
+  background-image: linear-gradient(rgb(91, 166, 235), rgb(34, 39, 128)); /* I learned how to create a gradient backround - Sabina*/
+  border-color: #869cff;
+  border-style: solid; /* I learned how to create a border and find a border style - Sabina */
+  
 
 }
+
 
 ul {
     list-style-type: none;
