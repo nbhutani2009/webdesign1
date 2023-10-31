@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Truths and A Lie</title>
+</head>
+<body>
+
+    <h1>Nehmat's Two Truths and a Lie Game!</h1>
+    <br>
+    <h2>Welcome!</h2>
+
+    <form>
+        <label for="fname">first name:</label><br>
+        <input type="text" id="fname" name="myName"><br>
+
+        <label for="lname">last name:</label><br>
+        <input type="text" id="lname" name="myLName"><br>
+
+        <label for="age">grade:</label><br>
+        <input type="text" id="grade" name="myAge"><br>
+
+        <input type="submit" value="submit" onclick="hello()">
+    </form>
+
+
+    <h2>Game Number One!</h2>
+    <form>
+          <input type="radio" id="numberone" name="2truthsandalie" value="lie">
+          <label for="html">I like Stranger Things</label><br>
+
+          <input type="radio" id="numbertwo" name="2truthsandalie" value="truth">
+          <label for="css">I like WandaVision</label><br>
+
+          <input type="radio" id="numberthree" name="2truthsandalie" value="truth">
+          <label for="javascript">I like Gilmore Girls</label><br><br>
+
+          <button type="submit" onclick="checkTruth()">Submit!</button>
+          
+        </form> 
+
+        <p id="answer"></p>
+
+        <script>
+            function hello() {
+                let lname= document.getElementById('lname').value;
+                name= document.getElementById('fname').value;
+                alert("Hello, " + name + lname);
+            }
+
+            //function checkTruth() {
+                let answerTag = document.getElementById('answer')
+                if( document.getElementById('numberone').checked) {
+                    answerTag.innerHTML='lie';
+                    answerTag.style.color = "red";
+                    answerTag.style.display = 'block';
+                }
+
+                if( document.getElementById('numbertwo').checked) {
+                    answerTag.innerHTML='truth';
+                    answerTag.style.color = "green";
+                    answerTag.style.display = 'block';
+                }
+
+                if( document.getElementById('numberthree').checked) {
+                    answerTag.innerHTML='truth';
+                    answerTag.style.color = "green";
+                    answerTag.style.display = 'block';
+                }
+            //}
+
+            function checkTruth () {
+                if( document.getElementById('numberone').checked) {
+                    alert("Correct! That's the lie!")
+                }
+
+                if( document.getElementById('numbertwo').checked) {
+                    alert("Incorrect! That is true!")
+                }
+
+                if(document.getElementById('numberthree').checked) {
+                    alert("Incorrect! That is true!")
+                }
+            }
+        </script>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 Truths and A Lie</title>
+</head>
+<body>
+    <h1>Let's learn javascript!</h1>
+
+    <h2>How to do onclick events</h2>
+    <a href="https://eastsideprep.org" target="_blank"
+    onclick="alert('Warning! You are navigating away from this page!')">this is my school website</a>
+    <hr>
+    <h2>Display a secret message on button click</h2>
+    <p id="secret"></p>
+    <button onclick="reveal()" >Reveal!</button>
+
+    <button onclick="getElementById('secret').style.display='none'">Hide!</button>
+
+    <h1>Two Truths and a Lie!</h1>
+
+    <form>
+        <label for="fname">first name:</label><br>
+        <input type="text" id="fname" name="myName"><br>
+        <input type="submit" value="submit" onclick="hello()">
+    </form>
+
+
+    <h2>Game Number One!</h2>
+    <form>
+          <input type="radio" id="numberone" name="2truthsandalie" value="lie">
+          <label for="html">I like Stranger Things</label><br>
+
+          <input type="radio" id="numbertwo" name="2truthsandalie" value="truth">
+          <label for="css">I like WandaVision</label><br>
+
+          <input type="radio" id="numberthree" name="2truthsandalie" value="truth">
+          <label for="javascript">I like Gilmore Girls</label><br><br>
+          <button type="submit" onclick="checkTruth()">Submit!</button>
+          
+        </form> 
+
+        <p id="answer"></p>
+
+        <script>
+            function hello() {
+                let name= document.getElementById('fname').value;
+                alert("Hello, " + name);
+            }
+
+            function reveal() {
+                document.getElementById('secret').innerHTML='shhhh very very secret';
+                getElementById('secret').style.display='block'
+            }
+
+            function checkTruth() {
+                let answerTag = document.getElementById('answer')
+                if( document.getElementById('numberone').checked) {
+                    answerTag.innerHTML='lie';
+                    answerTag.style.color = "red";
+                    answerTag.style.display = 'block';
+                }
+
+                if( document.getElementById('numbertwo').checked) {
+                    answerTag.innerHTML='truth';
+                    answerTag.style.color = "green";
+                    answerTag.style.display = 'block';
+                }
+
+                if( document.getElementById('numberthree').checked) {
+                    answerTag.innerHTML='truth';
+                    answerTag.style.color = "green";
+                    answerTag.style.display = 'block';
+                }
+            }
+        </script>
+
+</body>
+</html>
