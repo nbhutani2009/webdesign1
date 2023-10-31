@@ -8,8 +8,10 @@
 <body>
 
     <h1>Nehmat's Two Truths and a Lie Game!</h1>
-    <br>
+    <hr>
     <h2>Welcome!</h2>
+
+    <hr>
 
     <form>
         <label for="fname">first name:</label><br>
@@ -24,6 +26,7 @@
         <input type="submit" value="submit" onclick="hello()">
     </form>
 
+    <hr>
 
     <h2>Game Number One!</h2>
     <form>
@@ -36,20 +39,25 @@
           <input type="radio" id="numberthree" name="2truthsandalie" value="truth">
           <label for="javascript">I like Gilmore Girls</label><br><br>
 
-          <button type="submit" onclick="checkTruth()">Submit!</button>
+          <input type="button" value="submit" onclick="checkTruth()">
           
         </form> 
 
         <p id="answer"></p>
 
         <script>
+
+            function reveal() {
+                
+            }
+
             function hello() {
                 let lname= document.getElementById('lname').value;
                 name= document.getElementById('fname').value;
                 alert("Hello, " + name + lname);
             }
 
-            //function checkTruth() {
+            function checkTruth() {
                 let answerTag = document.getElementById('answer')
                 if( document.getElementById('numberone').checked) {
                     answerTag.innerHTML='lie';
@@ -68,21 +76,8 @@
                     answerTag.style.color = "green";
                     answerTag.style.display = 'block';
                 }
-            //}
-
-            function checkTruth () {
-                if( document.getElementById('numberone').checked) {
-                    alert("Correct! That's the lie!")
-                }
-
-                if( document.getElementById('numbertwo').checked) {
-                    alert("Incorrect! That is true!")
-                }
-
-                if(document.getElementById('numberthree').checked) {
-                    alert("Incorrect! That is true!")
-                }
             }
+
         </script>
 
 </body>
