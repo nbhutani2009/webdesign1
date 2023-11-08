@@ -5,6 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nehmat Final Project | SIVBC Remake</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+       
+       .container {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(203, 234, 252);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+    </style>
 </head>
 <body>
     <ul>
@@ -29,24 +68,31 @@
 
     <img src="images/longpic.png" height="200px">
 
+    <img src="images/makana.png" height="200px">
+
     <br>
 
     <div class="grid-container">
         
-        <div class="grid-item contact-info">
-            <h2>Gym and Contact Information</h2>
-            <p>Email For General Information: info@sivbc.org</p>
-            <p>Facebook: Sudden Impact VBC</p>
-            <p>Instagram: suddenimpactvb</p>
-            <p>Twitter: Sudden Impact VBC</p>
-            <p>Phone: 206-799-3934</p>
-            <p>Organizer: Sherrie Brown</p>
-            <p>Address:
-                I-90 Volleyball Center
-                13405 SE 30th Street
-                Suite 1-B
-                Bellevue, WA  98005</p>
-        </div>
+        <div class="grid-item contact-info container">
+            <img src="images/contact-over-image.png" alt="Avatar" class="image">
+            <div class="overlay">
+              <div class="text">                    
+                  <h2>Gym and Contact Information</h2>
+                  <p>Email For General Information: info@sivbc.org</p>
+                  <p>Facebook: Sudden Impact VBC</p>
+                  <p>Instagram: suddenimpactvb</p>
+                  <p>Twitter: Sudden Impact VBC</p>
+                  <p>Phone: 206-799-3934</p>
+                  <p>Organizer: Sherrie Brown</p>
+                  <p>Address:
+                      I-90 Volleyball Center
+                      13405 SE 30th Street
+                      Suite 1-B
+                      Bellevue, WA  98005</p></div>
+            </div>
+          </div>
+
 
         <div class="grid-item announce">
             <h2>Announcements</h2>
