@@ -5,6 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nehmat Final Project | SIVBC Remake</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .container {
+  position: relative;
+
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(250, 242, 229);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.grid-container-one {
+            display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr; 
+        font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+        }
+    </style>
 </head>
 <body>
     <ul>
@@ -15,6 +59,227 @@
         <li><a href="beach.html">Beach</a></li>
         <li><a href="scholars.html">Scholarship</a></li>
     </ul>
+
+    <br>
+    <h1 style="text-align: center; color: rgb(103, 11, 11)">Honoring Our Alumni!</h1>
+    <br>
     
+    <div class="grid-container-one">
+
+
+        <div class="grid-item alum-one container">
+            <img src="images/2021.png" class="image">
+            <div class="overlay">
+              <div class="text">
+                <p>Noelle Alberda - Adelphi University
+                    Sadie Bacon - Eastern Washington
+                    Kambel Fiser - Adelphi University
+                    Janelle Grant - Western Washington
+                    Ki'ana Hinckley - Pierce College
+                    Abigail May - Western Washington
+                    Krista Norton - Roosevelt University
+                    Cora ter Kuile - San Jose State
+                    Alex Thon - Westminster</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="grid-item alum-two container">
+            <img src="images/2020-stuff.png" class="image">
+            <div class="overlay">
+                <div class="text">
+                    <p> Sarah Day - Seattle Pacific University
+                        Marly Johnson - University of New Hampshire
+                        Ava Mason - Grand Canyon University
+                        Sophia Meyers - University of Montana
+                        Lauren Parker - Harvey Mudd College
+                        Maya Patton - Seattle University
+                    ​</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item alum-three container">
+            <img src="images/2019.png" class="image">
+            <div class="overlay">
+                <div class="text">
+                    <p>Scarlett Dahl – University of Washington Beach
+                        Tessa Fisk – New Mexico State
+                        Isabelle Garrido – University of Montana
+                        Maya Holmen – Seattle Pacific University
+                        Alisa Kim - Gonzaga
+                        Emily Kinsley-DeLeon – Saint Martin’s University
+                        Kaileahna McCollum - Bellevue College​</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item alum-four container">
+            <img src="images/2018.png" class="image">
+            <div class="overlay">
+                <div class="text">
+                    <p>Malia Aleaga - Western Washington
+                        Kelly Behrbaum - Cornell                       
+                        Susanna Sovde - Montana State                       
+                        Gracie Jendrezak - Tufts                       
+                        Patience O'Neil - Concordia-Irvine</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item alum-five container">
+            <img src="images/2017.png" class="image">
+            <div class="overlay">
+                <div class="text">
+                    <p>
+                        Courteney Carr – Northwest University
+                        Aimee Hudson – Idaho State
+                        Nicole Kramer – Central Connecticut 
+                        Chloe Loreen – Santa Clara University
+                        Elise Petit – Dartmouth
+                        Natalie Robinson – University of Washington
+                        Mckaela Simons – Connecticut College
+                        Alexa Torres – California Lutheran
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item alum-six container">
+            <img src="images/2016.png" class="image">
+            <div class="overlay">
+                <div class="text">
+                    <p>
+                        Zoe Gaines -  Highline Community College
+                        Kennan Hanses – Boise State University
+                        Courtney Johnson – Fresno State University
+                        Evan Larson – Drury University
+                        Shayne McPherson – University of Washington
+                        Avalyn Niece – University of Washington
+                        Jemma Yeadon – University of Notre Dame
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item alum-seven container">
+            <img src="images/2015.png" class="image">
+            <div class="overlay">
+                <div class="text">
+                    <p>Anna McCreadie - Santa Clara University
+                        Shea O'Brien - Bellevue College
+                        Taylor Odom - Santa Clara University
+                        Brooke Behrbaum - Penn
+                        Karly Ernster - Concordia - Portland
+                        Sophie Beckley - Minnesota
+                        Fiona Tanuwidjaja - MIT
+                        Hannah Wagner - Lehigh University</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item alum-eight container">
+            <img src="images/2014.png" class="image">
+            <div class="overlay">
+                <div class="text">
+                    <p>Lindsay Carr - Loyola Marymount University
+                        Julia O' Toole - Holy Cross University
+                        Sara Lindquist - Dartmouth
+                        Lauren Sheehan - Endicott College
+                        Tara Fishback - Concordia - Portland
+                        Hannah Hicks - Grand Canyon University</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="grid-item alum-nine container">
+            <img src="images/2013.png" class="image">
+            <div class="overlay">
+                <div class="text">
+                    <p>Michele Brown - Idaho
+                        Suzanne Dahl - Linfield
+                        Katarina Frickleton - Lyon College
+                        Jenny Glerum - MIT
+                        Anna Gorman - Cal Poly
+                        Anastasia Hicker - San Diego Christian
+                        Maggie Paulich - Bates College
+                        Carly Reece - Edmonds CC
+                        Makena Schoene - Drake</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item alum-ten container">
+            <img src="images/2012.png" class="image">
+            <div class="overlay">
+                <div class="text">
+                    <p>Nina Mutty - Haveford
+                        Justice Magraw - Washington
+                        Hannah Strom - Hartwick
+                        Abby Seethoff - Whitman</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="grid-item alum-eleven container">
+            <img src="images/2011.png" class="image">
+            <div class="overlay">
+                <div class="text">
+                    <p>
+                        Chelsey Nelson - Pacific Lutheran University
+                        Marchelle Bostic - Iowa Western CC
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item alum-twelve container">
+            <img src="images/2010.png" class="image">
+            <div class="overlay">
+                <div class="text">
+                    <p>
+                        Rae Ann Hastings - Western Oregon University
+                        Brooke Bachesta - Georgetown
+                        Lani Beadle - Seattle University
+                        Elle Mortensen - Snow College
+                        Stephanie Stoll - Washington
+                        Jordan Bush - University of Alaska Anchorage
+                        Nikki Conley - Western Oregon
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item alum-thirteen container">
+            <img src="images/2009.png" class="image">
+            <div class="overlay">
+                <div class="text">
+                    <p>
+                        Katie Grajeski - Idaho State University
+                        Katie Wolframe - Saint Olaf
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item alum-fourteen container">
+            <img src="images/2008.png" class="image">
+            <div class="overlay">
+                <div class="text">
+                    <p>Lauren Barfield - Washington
+                        Angie Pricco - Seattle Pacific University
+                        Abby Trimble - Claremont Mudd Scripps
+                        Jenna Suttmeier - Claremont Mudd Scripps</p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
 </body>
 </html>

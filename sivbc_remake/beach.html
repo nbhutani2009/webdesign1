@@ -15,6 +15,47 @@
         <li><a href="beach.html">Beach</a></li>
         <li><a href="scholars.html">Scholarship</a></li>
     </ul>
+
+    <br>
+    <h1 style="text-align: center; color: rgb(103, 11, 11)">Beach Facility Coming Soon!</h1>
+    <br>
+
+    <div style="text-align: center;">
+        <img src="images/beach-coming-soon.jpeg" width="500px" style="border: 12px solid black">
+    </div>
+
+    <br>
+    
+    <h2>Our beach facility will be located in the space across from our current gym space and area. More information coming soon on competitive teams and players!</h2>
+
+    <p style="text-align: center;">If you are interested in participating in our beach program, please fill out the form below. If the form goes through, you will get an alert 😊</p>
+
+<!--If time in class, ask how to put a space between the first and last name in an alert.-->
+
+    <form style="text-align: center;">
+        <label for="fname">First name</label><br>
+        <input type="text" id="fname" name="myName"><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="myLName"><br>
+
+        <label for="age">Age:</label><br>
+        <input type="text" id="grade" name="myAge"><br>
+
+        <label for="birth">Birthday:</label><br>
+        <input type="text" id="birth" name="myBirth"><br>
+
+        <input type="submit" value="submit" onclick="hello()">
+    </form>
+
+    <script>
+          function hello() {
+                let lname= document.getElementById('lname').value;
+                name= document.getElementById('fname').value;
+                alert("Hello, " + name  + lname );
+            }
+    </script>
+    
     
 </body>
 </html>
