@@ -1,12 +1,12 @@
 body {
     background-color: rgb(250, 242, 229);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .grid-container {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: auto auto 25%;
-    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 .grid-item {
