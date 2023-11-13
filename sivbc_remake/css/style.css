@@ -1,6 +1,10 @@
+/*Just in case the pushing doesn't end up working for this computer, the font-family should be working but it won't push to GitHub*/
+
 body {
     background-color: rgb(250, 242, 229);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "panel-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .grid-container {
